@@ -41,26 +41,30 @@ La aplicación construida en AngularJS se encuentra en la carpeta situada en  la
 
 Sigue la siguiente estructura de directorios
 
-.
-+-- _client
-|   +--- _bower_components
-|   +--- _css
-|   +--- _modules
++-- client
+
+|   +---bower_components
+
+|   +---css
+
+|   +---modules
+
 |   +-- app.js
+
 |   +-- index.html
 
-`bower_components` es la carpeta de instalación de los paquetes de bower configurada en el archivo `.bowerrc` situado en la raíz del proyecto. 
+**bower_components** es la carpeta de instalación de los paquetes de bower configurada en el archivo `.bowerrc` situado en la raíz del proyecto. 
 Se recomienda utilizar siempre el comando --save cuando instalamos una paquete de bower. Ejemplo: `bower install package_name --save`  así nuestro archivo bower.json se mantiene siempre actualizado con las dependencias del proyecto.
 
-`css` es la carpeta con los archivos de hoja de estilos.
+**css** es la carpeta con los archivos de hoja de estilos.
 
-`modules` es la carpeta donde estan todos los archivos angular separados en carpetas según funcionalidad.
+**modules** es la carpeta donde estan todos los archivos angular separados en carpetas según funcionalidad.
 Cabe destacar que se sigue transversalmente en toda la aplicación Angular el uso de la sintáxis recomendada
 por la siguiente guía de estilos: https://github.com/johnpapa/angular-styleguide
 
-`app.js` es el archivo que contiene toda la configuración global de la aplicación Angular.
+**app.js** es el archivo que contiene toda la configuración global de la aplicación Angular.
 
-`index.html` archivo base de la aplicación.
+**index.html** archivo base de la aplicación.
 
 <!-- 
 ##Testing
