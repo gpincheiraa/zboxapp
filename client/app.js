@@ -38,12 +38,12 @@
   //Servicio
   angular
     .module('app.common')
-    .service('Ref',['F_CHAT_URL',Firebase]);
+    .service('ChatRef',['F_CHAT_URL',Firebase]);
 
 
   angular
     .module('app.common')
-    .constant('ipc',require('ipc'));
+    .constant('ipc',  require('ipc') );
 
 
   //Módulo principal y función de Configuración
@@ -86,7 +86,6 @@
     Run.$inject = ['UserService','ipc','$state'] ;
 
     function Run(UserService,ipc,$state){
-
       ipc.on('hometweets',function(tweets){
 
         UserService.setHomeTweets(tweets);
@@ -100,6 +99,7 @@
       });
 
 
+    
 
     };
 

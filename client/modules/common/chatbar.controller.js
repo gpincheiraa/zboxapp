@@ -14,7 +14,7 @@
     
     vm.title = 'La Barra de Chat';
     vm.messages = ChatbarFactory.allMsgs();
-
+    
 
   }
 })();

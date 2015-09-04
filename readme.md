@@ -62,7 +62,7 @@ por la siguiente guía de estilos: https://github.com/johnpapa/angular-styleguid
 
 `index.html` archivo base de la aplicación.
 
-
+<!-- 
 ##Testing
 
 Los tests están situados en la carpeta que se encuentra en la ruta `./tests/e2e`
@@ -70,7 +70,8 @@ Cada test de integración se correponde con la carpeta modules en la ruta `./cli
 
 Para ejecutar los test de integtración necesitamos lo siguiente
 
-* Instalar webdriver-manager como depenencia global `npm install -g webdriver-manager`
+* Instalar webdriver-manager como dependencia global `npm install -g webdriver-manager`
+* Instalar Selenium http://www.seleniumhq.org/download/
 
 ###Ejecutar los Tests de Integración
 
@@ -78,10 +79,11 @@ Para ejecutar los test de integtración necesitamos lo siguiente
 * En una nueva ventana, en la raíz del proyecto ejecutar `node server-test.js` 
 * Finalmente en una tercera ventana de la terminal situados en la raíz del proyecto ejecutar `protractor protractor-conf.js`
 
+-->
 
 ##Trabajo Futuro
 
+* Test Unitarios y de Integración
 * Más Tareas Automatizadas: Linting, Serve, Build, Tests, etc.
-* Test Unitarios
 * Autenticación con OAuth
 * Integración de SASS ó COMPASS

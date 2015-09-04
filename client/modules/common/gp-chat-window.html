@@ -1,0 +1,17 @@
+<div class="chat-box">
+  <input type="checkbox" />
+  <label data-expanded="Cerrar Conversación" data-collapsed="Ver Conversación"></label>
+  <div class="chat-box-content">
+    
+    <p ng-repeat="message in vm.messages track by $index">{{message.user.name}} : {{message.message}}</p>
+    
+    <div class="chat-input">
+      <input type="text" ng-model="vm.message">
+      <md-button class="md-primary" ng-click="vm.send(vm.message)">
+        Enviar
+      </md-button> 
+    </div>
+    
+
+  </div>
+</div>

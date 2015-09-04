@@ -26,7 +26,7 @@ app.on('ready', function() {
     
   });
 
-  mainWindow.openDevTools();
+  //mainWindow.openDevTools();
 
   //Leer los tweets del home y los propios del usuario, también leer la info del usuario
   readTwitter.readHome(mainWindow);

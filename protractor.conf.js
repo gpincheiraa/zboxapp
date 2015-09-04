@@ -10,13 +10,17 @@ var reporter = new HtmlReporter({
 // configuración básica del protractor
 exports.config = {
 
-  seleniumServerJar: './node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar',
+  directConnect: true,
 
-  // ruta del web driver
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+  capabilities: {
+    browserName: "chrome",
+    chromeOptions: {
+      binary: './dist/gp-zboxapp-darwin-x64/gp-zboxapp.app/Contents/MacOS/Electron'
+    },  
+  },
   
 // Array de pruebas secuenciales
-  specs: ['./tests/login/login.spec.js'],
+  specs: ['./tests/e2e/dashboard/dashboard.spec.js'],
   
 // Agregar el reporte html
   onPrepare: function () {

@@ -6,10 +6,10 @@
     .module('app.common')
     .factory('ChatbarFactory', factory);
   
-  factory.$inject = ['Ref','$firebaseArray'];
+  factory.$inject = ['ChatRef','$firebaseArray'];
   
   /* @ngInject */
-  function factory(Ref, $firebaseArray) {
+  function factory(ChatRef, $firebaseArray) {
     
     var service = {
       allMsgs: all
@@ -18,8 +18,9 @@
     
     ////////////////
     function all() {
-      return $firebaseArray(Ref);
-    }
+      return $firebaseArray(ChatRef);
+    };
+
   }
 
 })();
