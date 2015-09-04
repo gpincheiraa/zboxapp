@@ -43,15 +43,15 @@ Sigue la siguiente estructura de directorios
 
 +-- client
 
-|   +---bower_components
+  |   +---bower_components
 
-|   +---css
+  |   +---css
 
-|   +---modules
+  |   +---modules 
 
-|   +-- app.js
+  |   app.js
 
-|   +-- index.html
+  |   index.html
 
 **bower_components** es la carpeta de instalación de los paquetes de bower configurada en el archivo `.bowerrc` situado en la raíz del proyecto. 
 Se recomienda utilizar siempre el comando --save cuando instalamos una paquete de bower. Ejemplo: `bower install package_name --save`  así nuestro archivo bower.json se mantiene siempre actualizado con las dependencias del proyecto.
