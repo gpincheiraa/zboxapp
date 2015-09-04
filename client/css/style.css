@@ -1,0 +1,41 @@
+.twitter-icon{
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  top: 50%;
+  left: 3px;
+  margin-top: -6px;
+  background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+  background-size: 13px;
+}
+
+.login-btn .md-button{
+  padding-left: 30px;
+}
+
+footer.page-footer{
+  padding-top: 0 !important;
+}
+
+.tweet-container{
+  min-height: 50px;
+}
+
+.footer-chatbar{
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar-nav{
+  position: fixed;
+  top: 0;
+}
+
+.tweets-container{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+button.active{
+  border: solid;
+}

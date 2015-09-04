@@ -1,0 +1,14 @@
+# temp files
+.DS_Store
+/dist/
+
+# npm & bower
+/node_modules/
+/bower_components/
+
+#tests 
+/tests/screenshots
+
+# IDE
+*.sublime-project
+*.sublime-workspace

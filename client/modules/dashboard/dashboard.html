@@ -1,0 +1,21 @@
+<md-content>
+  
+  <div class="tweets-container" layout="column" layout-fill style="padding-bottom: 32px;">
+    <md-list>
+      
+      <md-subheader class="md-no-sticky">Últimos Tweets</md-subheader>
+      <md-list-item class="md-3-line" ng-repeat="tweet in dashboard.tweets track by tweet.id">
+        <img ng-src="{{tweet.user.avatar_url}}" class="md-avatar" alt="{{tweet.user.name}" />
+        <div class="md-list-item-text">
+          <h3 ng-bind="tweet.user.name"></h3>
+          <h4 ng-bind="tweet.text"></h4>
+        </div>
+      </md-list-item>
+      <md-divider></md-divider>
+
+    </md-list>
+  </md-content>
+
+  </div>
+
+</md-content>
