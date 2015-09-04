@@ -3,7 +3,7 @@
 
 Aplicación para Zbox Postulación Trabajo 09/2015.
 
-Lector de Tweets utilizando AngularJS
+Lector de Tweets y Chat utilizando AngularJS y Firebase
 
 ##Dependencias
   
