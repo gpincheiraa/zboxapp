@@ -5,12 +5,12 @@
     
     <p ng-repeat="message in vm.messages track by $index">{{message.user.name}} : {{message.message}}</p>
     
-    <div class="chat-input">
+    <form class="chat-input" ng-submit="vm.send(vm.message)">
       <input type="text" ng-model="vm.message">
-      <md-button class="md-primary" ng-click="vm.send(vm.message)">
+      <md-button type="submit" class="md-primary">
         Enviar
       </md-button> 
-    </div>
+    </form>
     
 
   </div>
