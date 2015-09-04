@@ -17,7 +17,7 @@ Lector de Tweets y Chat utilizando AngularJS y Firebase
   * ejecutar `npm install && bower install`  
   * ejecutar `npm start`
 
-##Generar Aplicacion
+##Generar Aplicación
 
 Aplicación Linux 
   * Ejecutar `npm run build-linux`
