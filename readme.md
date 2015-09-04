@@ -13,7 +13,7 @@ Lector de Tweets y Chat utilizando AngularJS y Firebase
 ##Quickstart
   
   * Abrir terminal y dirigirse a carpeta donde se instalará el proyecto 
-  * git clone https://github.com/gpincheiraa/zboxapp.git o Descargar archivo Zip y copiarlo en la carpeta desead
+  * `git clone https://github.com/gpincheiraa/zboxapp.git` o Descargar archivo Zip y copiarlo en la carpeta desead
   * ejecutar `npm install && bower install`  
   * ejecutar `npm start`
 
