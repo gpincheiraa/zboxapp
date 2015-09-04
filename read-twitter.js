@@ -67,7 +67,6 @@ var twitterReader = {
       
       });
       
-      //console.log(textContentOfTweets);
       mainWindow.webContents.send("hometweets", textContentOfTweets);
     });
 
@@ -88,23 +87,17 @@ var twitterReader = {
                         avatar_url: userdata.profile_image_url
                     }; 
 
-      
-
 
       console.log("**********************************");
       console.log("Usuario Conectado");
       console.log(userdata);
       console.log("**********************************");
       mainWindow.webContents.send("userdata", userdata);
+      
     });
 
 
   }
-
-
-
-
-
 
 };
 

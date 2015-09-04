@@ -9,7 +9,7 @@
   Controller.$inject = ['UserService']
     
   /* @ngInject */
-  function Controller(UserService) {
+  function Controller(UserService,twitterReader) {
     
     var vm = this;
     vm.title = 'Dashboard con Materialize CSS';

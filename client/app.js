@@ -45,7 +45,6 @@
     .module('app.common')
     .constant('ipc',  require('ipc') );
 
-
   //Módulo principal y función de Configuración
   angular
     .module('zboxApp',['ui.router',
@@ -97,9 +96,6 @@
       ipc.on("userdata",function(userdata){
         UserService.setUser(userdata);
       });
-
-
-    
 
     };
 
