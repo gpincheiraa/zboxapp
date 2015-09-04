@@ -59,7 +59,7 @@ Se recomienda utilizar siempre el comando --save cuando instalamos una paquete d
 **css** es la carpeta con los archivos de hoja de estilos.
 
 **modules** es la carpeta donde estan todos los archivos angular separados en carpetas según funcionalidad.
-Cabe destacar que se sigue transversalmente en toda la aplicación Angular el uso de la sintáxis recomendada
+Cabe destacar que utiliza transversalmente en toda la aplicación Angular, la sintáxis recomendada
 por la siguiente guía de estilos: https://github.com/johnpapa/angular-styleguide
 
 **app.js** es el archivo que contiene toda la configuración global de la aplicación Angular.
